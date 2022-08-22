@@ -1,0 +1,87 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/da/ce/28/dace28adf1cc40de1fd125baf304e7e3.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+    margin-left: 200px;
+  }
+  .flavor:hover, .dessert:hover {
+    background: #11fbff;
+    cursor: pointer; 
+    transition: background .5s;  
+  }
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  img{display: block; margin-left:auto; margin-right:auto; width: 50px;height: 50px;}
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+
+  }
+  
+  .flavor, .dessert {
+    text-align: left;
+    width: 75%;
+    font-size: 20px;
+    
+  }
+  
+  .price {
+    text-align: Center;
+    width: 50%;
+    font-size: 14px;
+    font-style: italic;
+  }
+  hr {
+    height: 2px;
+    background-color: magenta;
+    border-color: black;
+  }
+  /*how to comment in css*/
+  footer {
+    font-size: 14px;
+  }
+  
+  a {
+    color: black;
+  }
+  a:visited {
+    color: grey;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  a:active {
+    color: pink;
+  }

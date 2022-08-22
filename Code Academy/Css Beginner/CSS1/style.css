@@ -1,0 +1,162 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 940px; 
+    padding: 0 10px;
+  }
+  
+  .header {
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8a3a17ea-2d9a-40e7-b2dc-2c63a0a04f5f/dcq78mc-1237553d-4727-4ea4-ad17-e7a94acecb9e.jpg/v1/fill/w_1600,h_900,q_75,strp/new_characters_of_jump_force_wallpaper__so_far__by_jmarvelhero_dcq78mc-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvOGEzYTE3ZWEtMmQ5YS00MGU3LWIyZGMtMmM2M2EwYTA0ZjVmXC9kY3E3OG1jLTEyMzc1NTNkLTQ3MjctNGVhNC1hZDE3LWU3YTk0YWNlY2I5ZS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.HoGB87fyG94nD2YyMtNKXnsu5rKcPDZ5uWLMD7MWZag) no-repeat center center; 
+    background-size: cover;
+    height: 800px;
+    text-align: center; 
+  }
+  
+  .header .container {
+    position: relative;
+    top: 200px;
+  }
+  
+  .header h1 {
+    color: rgba(255, 255, 255, 0.914);
+    line-height: 100px; 
+    outline: auto;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase; 
+  }
+  
+  @media (min-width:850px) {
+    .header h1 {
+      font-size: 120px;
+    }
+  }
+  
+  .header p {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 7px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-transform: uppercase; 
+  }
+  
+  .btn {
+    color: #fff;
+    background: #000;
+    padding: 10px 40px;
+    text-decoration: none; 
+    transition: background .5s; 
+  }
+  
+  .nav { 
+    background: #000;
+    height: 80px; 
+    width: 100%;
+  }
+  
+  .nav ul {
+    height: 80px;
+    list-style: none;
+    margin: 0 auto; 
+    padding: 0;
+  }
+  
+  .nav ul li {
+    color: #fff;
+    display: inline-block; 
+    height: 80px;
+    line-height: 80px; 
+    list-style: none;
+    padding: 0 10px;
+    transition: background .5s; 
+  }
+  
+  .btn:hover, .nav ul li:hover {
+    background: #117bff;
+    cursor: pointer; 
+    transition: background .5s;  
+  }
+  
+  .main .container {
+    margin: 80px auto;
+  }
+  
+  .main img {
+    float: left;
+    margin: 50px 80px 50px 0;
+  }
+  
+  .jumbotron {
+    background: url(https://i.pinimg.com/originals/7d/3c/fc/7d3cfc099bdd1567a8c031c7b7a386d8.jpg) center center;
+    background-size: cover;
+    height: 600px; 
+  }
+  
+  .jumbotron .container {
+    position: relative;
+    top: 220px;
+  }
+  
+  .jumbotron h2 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 20px;
+    outline-style: groove;
+    background-color: white; 
+  }
+  
+  .jumbotron p {
+    color: rgb(0, 0, 0); 
+    text-align: center; 
+    font-size: 25px;
+    outline-style: dotted
+
+    
+    ;
+  }
+
+  
+  .jumbotron .btn {
+    margin: 10px 0 0;
+    float: right; 
+  }
+  
+  .footer { 
+    background: #000;
+    height: 80px; 
+    padding-bottom: 50px;
+  }
+  
+  .footer p { 
+    color: #fff;
+    font-size: 14px;  
+    height: 80px; 
+    line-height: 80px;
+    margin: 0;  
+  }
+  
+  @media (max-width: 500px) {
+    .header h1 {
+      font-size: 50px;
+      line-height: 64px;
+    }
+  
+    .main, .jumbotron {
+      padding: 0 30px;
+    }
+  
+    .main img {
+      width: 100%;
+    }
+  }
